@@ -1,0 +1,79 @@
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px !important;
+}
+.viewTask_description {
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
+.viewTask_btn {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.viewTask_btn > button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.delete {
+  background-color: rgb(202, 43, 43);
+  color: white;
+}
+
+
+@media (max-width: 575px) {
+  
+  .mainsection {
+     display: flex;
+     flex-direction: column;
+     transform: scale(0.9);
+  }
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+  .mainsection {
+    display: flex;
+    flex-direction: column;
+ }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+  .mainsection {
+    display: flex;
+    flex-direction: column;
+ }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+  .mainsection {
+    display: flex;
+    flex-direction: column;
+ }
+}
+
+
+@media (min-width: 1200px) {
+  
+  body {
+      font-size: 24px;
+  }
+  .setup{
+    position: relative;
+    right: 60px;
+    transform: scale(0.7);
+    border-left: 5px solid white;
+    padding: 10px;
+    gap: 20px;
+  }
+}
